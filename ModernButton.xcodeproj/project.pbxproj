@@ -13,6 +13,23 @@
 		994465C219932204005E63E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 994465C019932204005E63E7 /* Main.storyboard */; };
 		994465C419932204005E63E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 994465C319932204005E63E7 /* Images.xcassets */; };
 		994465D019932204005E63E7 /* ModernButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 994465CF19932204005E63E7 /* ModernButtonTests.m */; };
+		994465DA19932489005E63E7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 994465D919932489005E63E7 /* SystemConfiguration.framework */; };
+		994465DC1993248F005E63E7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 994465DB1993248F005E63E7 /* AVFoundation.framework */; };
+		994465DE1993249A005E63E7 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 994465DD1993249A005E63E7 /* EventKit.framework */; };
+		994465E0199324A4005E63E7 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 994465DF199324A4005E63E7 /* EventKitUI.framework */; };
+		994465E2199324AC005E63E7 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 994465E1199324AC005E63E7 /* CoreMedia.framework */; };
+		994465E4199324B3005E63E7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 994465E3199324B3005E63E7 /* CoreData.framework */; };
+		994465E6199324BD005E63E7 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 994465E5199324BD005E63E7 /* MediaPlayer.framework */; };
+		994465E8199324C4005E63E7 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 994465E7199324C4005E63E7 /* AdSupport.framework */; };
+		994465EA199324D3005E63E7 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 994465E9199324D3005E63E7 /* StoreKit.framework */; };
+		994465EC199324F5005E63E7 /* libSessionM.1.11.6.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 994465EB199324F5005E63E7 /* libSessionM.1.11.6.a */; };
+		994465FB199325B8005E63E7 /* btnSessionM.png in Resources */ = {isa = PBXBuildFile; fileRef = 994465F5199325B8005E63E7 /* btnSessionM.png */; };
+		994465FC199325B8005E63E7 /* btnSessionM_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 994465F6199325B8005E63E7 /* btnSessionM_lg.png */; };
+		994465FD199325B8005E63E7 /* GiftBox_20x20.png in Resources */ = {isa = PBXBuildFile; fileRef = 994465F7199325B8005E63E7 /* GiftBox_20x20.png */; };
+		994465FE199325B8005E63E7 /* M_Logo_20x20.png in Resources */ = {isa = PBXBuildFile; fileRef = 994465F8199325B8005E63E7 /* M_Logo_20x20.png */; };
+		994465FF199325B8005E63E7 /* Trophy_20x20.png in Resources */ = {isa = PBXBuildFile; fileRef = 994465F9199325B8005E63E7 /* Trophy_20x20.png */; };
+		99446600199325B8005E63E7 /* libSessionM.1.11.6.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 994465FA199325B8005E63E7 /* libSessionM.1.11.6.a */; };
+		994466031993AD65005E63E7 /* ButtonNativeAchievement.m in Sources */ = {isa = PBXBuildFile; fileRef = 994466021993AD65005E63E7 /* ButtonNativeAchievement.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +55,29 @@
 		994465C919932204005E63E7 /* ModernButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModernButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		994465CE19932204005E63E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		994465CF19932204005E63E7 /* ModernButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModernButtonTests.m; sourceTree = "<group>"; };
+		994465D919932489005E63E7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		994465DB1993248F005E63E7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		994465DD1993249A005E63E7 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		994465DF199324A4005E63E7 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		994465E1199324AC005E63E7 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		994465E3199324B3005E63E7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		994465E5199324BD005E63E7 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		994465E7199324C4005E63E7 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		994465E9199324D3005E63E7 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		994465EB199324F5005E63E7 /* libSessionM.1.11.6.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSessionM.1.11.6.a; path = "../../SessionM_iOS_v1.11.6_Release/SessionM-SDK/libSessionM.1.11.6.a"; sourceTree = "<group>"; };
+		994465EF199325B8005E63E7 /* SessionM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionM.h; sourceTree = "<group>"; };
+		994465F0199325B8005E63E7 /* SMAchievementData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMAchievementData.h; sourceTree = "<group>"; };
+		994465F1199325B8005E63E7 /* SMActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMActivityViewController.h; sourceTree = "<group>"; };
+		994465F2199325B8005E63E7 /* SMPortalBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMPortalBarButtonItem.h; sourceTree = "<group>"; };
+		994465F3199325B8005E63E7 /* SMPortalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMPortalButton.h; sourceTree = "<group>"; };
+		994465F5199325B8005E63E7 /* btnSessionM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnSessionM.png; sourceTree = "<group>"; };
+		994465F6199325B8005E63E7 /* btnSessionM_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnSessionM_lg.png; sourceTree = "<group>"; };
+		994465F7199325B8005E63E7 /* GiftBox_20x20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GiftBox_20x20.png; sourceTree = "<group>"; };
+		994465F8199325B8005E63E7 /* M_Logo_20x20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = M_Logo_20x20.png; sourceTree = "<group>"; };
+		994465F9199325B8005E63E7 /* Trophy_20x20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Trophy_20x20.png; sourceTree = "<group>"; };
+		994465FA199325B8005E63E7 /* libSessionM.1.11.6.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSessionM.1.11.6.a; sourceTree = "<group>"; };
+		994466011993AD65005E63E7 /* ButtonNativeAchievement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonNativeAchievement.h; sourceTree = "<group>"; };
+		994466021993AD65005E63E7 /* ButtonNativeAchievement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonNativeAchievement.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +85,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				994465EC199324F5005E63E7 /* libSessionM.1.11.6.a in Frameworks */,
+				99446600199325B8005E63E7 /* libSessionM.1.11.6.a in Frameworks */,
+				994465EA199324D3005E63E7 /* StoreKit.framework in Frameworks */,
+				994465E8199324C4005E63E7 /* AdSupport.framework in Frameworks */,
+				994465E6199324BD005E63E7 /* MediaPlayer.framework in Frameworks */,
+				994465E4199324B3005E63E7 /* CoreData.framework in Frameworks */,
+				994465E2199324AC005E63E7 /* CoreMedia.framework in Frameworks */,
+				994465E0199324A4005E63E7 /* EventKitUI.framework in Frameworks */,
+				994465DE1993249A005E63E7 /* EventKit.framework in Frameworks */,
+				994465DC1993248F005E63E7 /* AVFoundation.framework in Frameworks */,
+				994465DA19932489005E63E7 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,9 +112,20 @@
 		994465AA19932204005E63E7 = {
 			isa = PBXGroup;
 			children = (
+				994465EB199324F5005E63E7 /* libSessionM.1.11.6.a */,
+				994465E9199324D3005E63E7 /* StoreKit.framework */,
+				994465E7199324C4005E63E7 /* AdSupport.framework */,
+				994465E5199324BD005E63E7 /* MediaPlayer.framework */,
+				994465E3199324B3005E63E7 /* CoreData.framework */,
+				994465E1199324AC005E63E7 /* CoreMedia.framework */,
+				994465DF199324A4005E63E7 /* EventKitUI.framework */,
+				994465DD1993249A005E63E7 /* EventKit.framework */,
+				994465DB1993248F005E63E7 /* AVFoundation.framework */,
+				994465D919932489005E63E7 /* SystemConfiguration.framework */,
 				994465B519932204005E63E7 /* ModernButton */,
 				994465CC19932204005E63E7 /* ModernButtonTests */,
 				994465B419932204005E63E7 /* Products */,
+				994465ED199325B8005E63E7 /* SessionM-SDK */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +145,8 @@
 				994465BB19932204005E63E7 /* AppDelegate.m */,
 				994465BD19932204005E63E7 /* ViewController.h */,
 				994465BE19932204005E63E7 /* ViewController.m */,
+				994466011993AD65005E63E7 /* ButtonNativeAchievement.h */,
+				994466021993AD65005E63E7 /* ButtonNativeAchievement.m */,
 				994465C019932204005E63E7 /* Main.storyboard */,
 				994465C319932204005E63E7 /* Images.xcassets */,
 				994465B619932204005E63E7 /* Supporting Files */,
@@ -114,6 +178,40 @@
 				994465CE19932204005E63E7 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		994465ED199325B8005E63E7 /* SessionM-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				994465EE199325B8005E63E7 /* API */,
+				994465F4199325B8005E63E7 /* Assets */,
+				994465FA199325B8005E63E7 /* libSessionM.1.11.6.a */,
+			);
+			path = "SessionM-SDK";
+			sourceTree = "<group>";
+		};
+		994465EE199325B8005E63E7 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				994465EF199325B8005E63E7 /* SessionM.h */,
+				994465F0199325B8005E63E7 /* SMAchievementData.h */,
+				994465F1199325B8005E63E7 /* SMActivityViewController.h */,
+				994465F2199325B8005E63E7 /* SMPortalBarButtonItem.h */,
+				994465F3199325B8005E63E7 /* SMPortalButton.h */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		994465F4199325B8005E63E7 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				994465F5199325B8005E63E7 /* btnSessionM.png */,
+				994465F6199325B8005E63E7 /* btnSessionM_lg.png */,
+				994465F7199325B8005E63E7 /* GiftBox_20x20.png */,
+				994465F8199325B8005E63E7 /* M_Logo_20x20.png */,
+				994465F9199325B8005E63E7 /* Trophy_20x20.png */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,8 +294,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				994465FC199325B8005E63E7 /* btnSessionM_lg.png in Resources */,
 				994465C219932204005E63E7 /* Main.storyboard in Resources */,
+				994465FB199325B8005E63E7 /* btnSessionM.png in Resources */,
+				994465FF199325B8005E63E7 /* Trophy_20x20.png in Resources */,
+				994465FE199325B8005E63E7 /* M_Logo_20x20.png in Resources */,
 				994465C419932204005E63E7 /* Images.xcassets in Resources */,
+				994465FD199325B8005E63E7 /* GiftBox_20x20.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +318,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				994466031993AD65005E63E7 /* ButtonNativeAchievement.m in Sources */,
 				994465BF19932204005E63E7 /* ViewController.m in Sources */,
 				994465BC19932204005E63E7 /* AppDelegate.m in Sources */,
 				994465B919932204005E63E7 /* main.m in Sources */,
@@ -336,6 +440,11 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = ModernButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/ghewes/Documents/SDK/SessionM_iOS_v1.11.6_Release/SessionM-SDK",
+					"$(PROJECT_DIR)/SessionM-SDK",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -347,6 +456,11 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = ModernButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/ghewes/Documents/SDK/SessionM_iOS_v1.11.6_Release/SessionM-SDK",
+					"$(PROJECT_DIR)/SessionM-SDK",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
