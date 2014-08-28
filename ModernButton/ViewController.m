@@ -21,6 +21,7 @@
 @synthesize bigRedButton;
 @synthesize bigGreenButton;
 @synthesize bigBlueButton;
+@synthesize memberSwitch;
             
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -31,10 +32,19 @@
     // Init the SDK
     SMStart(YOUR_APP_ID);
     
+    // Create SMPortalButton
     SMPortalButton *portalButton=[SMPortalButton buttonWithType:UIButtonTypeSystem];
     [portalButton.button setTitle:@"Portal Button" forState:UIControlStateNormal];
     portalButton.frame = CGRectMake(40, 40, 100, 30);
     [self.view addSubview:portalButton];
+    
+    // Manually Enable / Disable Portal Button
+    [bigGreenButton setTitle: @"Offline" forState: UIControlStateDisabled ];
+    [self updateButton: [SessionM sharedInstance].sessionState ];
+    
+    // Update the switch
+    memberSwitch.on = ![SessionM sharedInstance].user.isOptedOut;
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -63,6 +73,37 @@
 
 
 return;
+}
+
+- (IBAction)memberSwitchAction:(id)sender{
+    [SessionM sharedInstance].user.isOptedOut = !memberSwitch.on;
+    
+    
+    [self updateButton: [SessionM sharedInstance].sessionState  ];
+}
+
+- (void)updateButton:  (SessionMState) state  {
+    
+    if ([SessionM sharedInstance].user.isOptedOut) {
+        [bigGreenButton setTitle: @"OptedOut" forState: UIControlStateNormal ];
+    } else {
+        [bigGreenButton setTitle: @"Portal" forState: UIControlStateNormal ];
+    }
+
+    
+    if (state == SessionMStateStartedOnline) {
+        bigGreenButton.enabled = YES;
+    } else {
+        bigGreenButton.enabled = NO;
+    }
+}
+
+
+#pragma mark SMSessionDelegate
+
+- (void)sessionM: (SessionM *)session didTransitionToState: (SessionMState)state {
+        [self updateButton: state ];
+    
 }
 
 @end

@@ -21,15 +21,14 @@
 		994465E4199324B3005E63E7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 994465E3199324B3005E63E7 /* CoreData.framework */; };
 		994465E6199324BD005E63E7 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 994465E5199324BD005E63E7 /* MediaPlayer.framework */; };
 		994465E8199324C4005E63E7 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 994465E7199324C4005E63E7 /* AdSupport.framework */; };
-		994465EC199324F5005E63E7 /* libSessionM.1.11.6.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 994465EB199324F5005E63E7 /* libSessionM.1.11.6.a */; };
 		994465FB199325B8005E63E7 /* btnSessionM.png in Resources */ = {isa = PBXBuildFile; fileRef = 994465F5199325B8005E63E7 /* btnSessionM.png */; };
 		994465FC199325B8005E63E7 /* btnSessionM_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 994465F6199325B8005E63E7 /* btnSessionM_lg.png */; };
 		994465FD199325B8005E63E7 /* GiftBox_20x20.png in Resources */ = {isa = PBXBuildFile; fileRef = 994465F7199325B8005E63E7 /* GiftBox_20x20.png */; };
 		994465FE199325B8005E63E7 /* M_Logo_20x20.png in Resources */ = {isa = PBXBuildFile; fileRef = 994465F8199325B8005E63E7 /* M_Logo_20x20.png */; };
 		994465FF199325B8005E63E7 /* Trophy_20x20.png in Resources */ = {isa = PBXBuildFile; fileRef = 994465F9199325B8005E63E7 /* Trophy_20x20.png */; };
-		99446600199325B8005E63E7 /* libSessionM.1.11.6.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 994465FA199325B8005E63E7 /* libSessionM.1.11.6.a */; };
 		994466031993AD65005E63E7 /* ButtonNativeAchievement.m in Sources */ = {isa = PBXBuildFile; fileRef = 994466021993AD65005E63E7 /* ButtonNativeAchievement.m */; };
 		99F5352219AE88D8009D3ACE /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F5352119AE88D8009D3ACE /* StoreKit.framework */; };
+		99F5352419AF74EF009D3ACE /* libSessionM.1.11.7.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F5352319AF74EF009D3ACE /* libSessionM.1.11.7.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +77,7 @@
 		994466011993AD65005E63E7 /* ButtonNativeAchievement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonNativeAchievement.h; sourceTree = "<group>"; };
 		994466021993AD65005E63E7 /* ButtonNativeAchievement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonNativeAchievement.m; sourceTree = "<group>"; };
 		99F5352119AE88D8009D3ACE /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		99F5352319AF74EF009D3ACE /* libSessionM.1.11.7.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSessionM.1.11.7.a; path = ../../../../work/sdk/ios/Library/build/libSessionM.1.11.7.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +85,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99F5352419AF74EF009D3ACE /* libSessionM.1.11.7.a in Frameworks */,
 				99F5352219AE88D8009D3ACE /* StoreKit.framework in Frameworks */,
-				994465EC199324F5005E63E7 /* libSessionM.1.11.6.a in Frameworks */,
-				99446600199325B8005E63E7 /* libSessionM.1.11.6.a in Frameworks */,
 				994465E8199324C4005E63E7 /* AdSupport.framework in Frameworks */,
 				994465E6199324BD005E63E7 /* MediaPlayer.framework in Frameworks */,
 				994465E4199324B3005E63E7 /* CoreData.framework in Frameworks */,
@@ -112,6 +111,7 @@
 		994465AA19932204005E63E7 = {
 			isa = PBXGroup;
 			children = (
+				99F5352319AF74EF009D3ACE /* libSessionM.1.11.7.a */,
 				99F5352119AE88D8009D3ACE /* StoreKit.framework */,
 				994465EB199324F5005E63E7 /* libSessionM.1.11.6.a */,
 				994465E7199324C4005E63E7 /* AdSupport.framework */,
@@ -453,6 +453,7 @@
 					"$(inherited)",
 					"/Users/ghewes/Documents/SDK/SessionM_iOS_v1.11.6_Release/SessionM-SDK",
 					"$(PROJECT_DIR)/SessionM-SDK",
+					/Users/ghewes/work/sdk/ios/Library/build,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -473,6 +474,7 @@
 					"$(inherited)",
 					"/Users/ghewes/Documents/SDK/SessionM_iOS_v1.11.6_Release/SessionM-SDK",
 					"$(PROJECT_DIR)/SessionM-SDK",
+					/Users/ghewes/work/sdk/ios/Library/build,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";

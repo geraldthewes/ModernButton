@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6205" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
+        <deployment defaultVersion="1808" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6198"/>
     </dependencies>
     <scenes>
@@ -46,6 +47,17 @@
                                     <action selector="blueButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="na7-Ke-iUG"/>
                                 </connections>
                             </button>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mg7-4M-0IL">
+                                <rect key="frame" x="27" y="386" width="51" height="31"/>
+                                <connections>
+                                    <action selector="memberSwitchAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="p8m-SY-r8N"/>
+                                </connections>
+                            </switch>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Member" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FJf-7j-5oA">
+                                <rect key="frame" x="92" y="387" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -53,6 +65,7 @@
                         <outlet property="bigBlueButton" destination="5RO-An-1t8" id="orR-AV-egg"/>
                         <outlet property="bigGreenButton" destination="uXo-uE-uLE" id="nUd-km-P1E"/>
                         <outlet property="bigRedButton" destination="Rce-qi-qha" id="d82-op-xEv"/>
+                        <outlet property="memberSwitch" destination="mg7-4M-0IL" id="IIi-zy-AoM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
