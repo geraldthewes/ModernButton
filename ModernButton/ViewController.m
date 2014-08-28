@@ -30,6 +30,11 @@
     [[SessionM sharedInstance] setDelegate:self];
     // Init the SDK
     SMStart(YOUR_APP_ID);
+    
+    SMPortalButton *portalButton=[SMPortalButton buttonWithType:UIButtonTypeSystem];
+    [portalButton.button setTitle:@"Portal Button" forState:UIControlStateNormal];
+    portalButton.frame = CGRectMake(40, 40, 100, 30);
+    [self.view addSubview:portalButton];
 }
 
 - (void)didReceiveMemoryWarning {
